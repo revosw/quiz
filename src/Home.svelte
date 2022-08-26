@@ -18,11 +18,9 @@
 
 <Column>
   <div />
-  {#if true}
-    <div style="visibility: {showPasswordBox ? 'visible' : 'hidden'}">
-      <Password {togglePasswordBox} />
-    </div>
-  {/if}
+  <div style="visibility: {showPasswordBox ? 'visible' : 'hidden'}">
+    <Password {togglePasswordBox} />
+  </div>
   <Row align="center">
     <span>https://quiz.com</span>
     <Icon icon="clipboard" />

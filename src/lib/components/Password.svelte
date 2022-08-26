@@ -1,15 +1,30 @@
 <script lang="ts">
-  import Button from "../surfaces/Button.svelte";
-import Input from "../surfaces/Input.svelte";
-import Surface from "../surfaces/Surface.svelte";
+  import Icon from "../Icon.svelte";
+
+  import Input from "../surfaces/Input.svelte";
+  import RoundButton from "../surfaces/RoundButton.svelte";
+  import Surface from "../surfaces/Surface.svelte";
 
   export let togglePasswordBox: () => any;
 
   function submitPassword() {}
 </script>
 
-<Surface padding="tight">
+<div>
   <Input placeholder="Password" />
-  <Button click={submitPassword}>✅</Button>
-  <Button click={togglePasswordBox} color="red">❌</Button>
-</Surface>
+  <RoundButton click={submitPassword}>
+    <Icon icon="check" />
+  </RoundButton>
+  <RoundButton click={togglePasswordBox} color="red">
+    <Icon icon="cross" />
+  </RoundButton>
+</div>
+
+<style>
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--tight)
+  }
+</style>

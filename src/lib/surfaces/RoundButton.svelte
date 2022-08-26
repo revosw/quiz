@@ -5,9 +5,10 @@
 
 <style>
   button {
-    padding: 15px 30px;
+    aspect-ratio: 1;
+    line-height: 0;
     font-size: 1.4rem;
-    border-radius: 90;
+    border-radius: 90px;
     border: var(--border);
     box-shadow: var(--shadow);
     cursor: pointer;

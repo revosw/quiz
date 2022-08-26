@@ -1,1 +1,1 @@
-export type Icon = 'trash'|'check'|'cross'|'clipboard'|'shield'|'up'|'down'
+export type Icon = 'trash' | 'check' | 'cross' | 'clipboard' | 'shield' | 'up' | 'down'

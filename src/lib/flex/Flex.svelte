@@ -21,7 +21,7 @@
     --tight: 24px;
     display: flex;
   }
-  div > * {
+  /* div > * {
     flex-shrink: 0;
-  }
+  } */
 </style>
