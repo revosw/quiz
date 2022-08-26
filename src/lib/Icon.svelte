@@ -10,4 +10,4 @@
   }
 </style>
 
-<img src="src/assets/icons/{icon}.svg" alt="" />
+<img src="icons/{icon}.svg" alt="" />
