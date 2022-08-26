@@ -27,7 +27,7 @@
           {person.name}
         </span>
         {#if person.admin}
-          <Icon icon="🛡️" />
+          <Icon icon="shield" />
         {/if}
       </Row>
     {/each}

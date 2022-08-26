@@ -57,9 +57,9 @@ import Surface from "./lib/surfaces/Surface.svelte";
         <Row>
           <Column>
           <!-- BUTTONS -->
-            <RoundButton color='red' click={deleteQuestion(index)}><Icon icon='🗑️' /></RoundButton>
-            <RoundButton click={deleteQuestion(index)}><Icon icon='⬆️' /></RoundButton>
-            <RoundButton click={deleteQuestion(index)}><Icon icon='⬇️' /></RoundButton>
+            <RoundButton color='red' click={deleteQuestion(index)}><Icon icon='trash' /></RoundButton>
+            <RoundButton click={deleteQuestion(index)}><Icon icon='up' /></RoundButton>
+            <RoundButton click={deleteQuestion(index)}><Icon icon='down' /></RoundButton>
           </Column>
           <Image src={question.img} />
           <Column>

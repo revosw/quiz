@@ -25,7 +25,7 @@
   {/if}
   <Row align="center">
     <span>https://quiz.com</span>
-    <Icon icon="📋" />
+    <Icon icon="clipboard" />
     <Spacer />
     <Button click={togglePasswordBox}>?</Button>
     <Button click={play}>Play</Button>
