@@ -2,14 +2,15 @@
   import Surface from "./Surface.svelte";
   export let placeholder: string;
   export let type: "single" | "multi" = "single";
-  export let rows: '2' | '6' = '2'
+  export let rows: "2" | "6" = "2";
+  export let value: string;
 </script>
 
-<Surface padding='none' color="teal">
+<Surface padding="none" color="teal">
   {#if type === "single"}
-    <input {placeholder} />
+    <input {value} {placeholder} />
   {:else}
-    <textarea rows={parseInt(rows)} {placeholder} />
+    <textarea {value} rows={parseInt(rows)} {placeholder} />
   {/if}
 </Surface>
 
@@ -35,5 +36,9 @@
   ::placeholder {
     mix-blend-mode: multiply;
     /* color: var(--green); */
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
   }
 </style>

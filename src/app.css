@@ -17,10 +17,9 @@
   --border-radius: 20px;
   --shadow: 0px 4px black;
 
-  --scrollbar-foreground: #999
-  --scrollbar-background: #333
-  /* Foreground, Background */
-  scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
+  --scrollbar-foreground: #999 --scrollbar-background: #333
+    /* Foreground, Background */
+    scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
 
   background-color: #BDE7FF;
 
@@ -41,16 +40,4 @@ body {
 
 main {
   max-width: 1200px;
-}
-
-::-webkit-scrollbar {
-  width: 10px; /* Mostly for vertical scrollbars */
-  height: 10px; /* Mostly for horizontal scrollbars */
-}
-::-webkit-scrollbar-thumb { /* Foreground */
-  /* background: var(--scrollbar-foreground); */
-  background: #999;
-}
-::-webkit-scrollbar-track { /* Background */
-  background: var(--scrollbar-background);
 }
