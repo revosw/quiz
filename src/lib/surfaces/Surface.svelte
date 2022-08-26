@@ -1,25 +1,21 @@
 <script lang="ts">
+  import type { Icon } from "src/types/types";
+
   export let color: 'cyan'|'teal'|'green'|'red' = 'cyan'
   export let padding: 'tight'|'loose' = 'tight'
 </script>
 
 <style>
   div {
-    --cyan: #56CCF2;
-    --teal: #369696;
-    --green: #B8F98C;
-    --red: #EA9696;
+    display: flex;
+    /* justify-content: center; */
 
-    --tight: 8px;
-    --loose: 12px;
-
-    border: 3px solid black;
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 0px 4px black;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    box-shadow: var(--shadow);
   }
 </style>
 
-<div style="background-color: var(--{color}); padding: var(--{padding})">
+<div style="background-color: var(--{color}); padding: var(--{padding}); gap: var(--{padding})">
   <slot></slot>
 </div>

@@ -1,7 +1,20 @@
 <script lang="ts">
   import Surface from "./Surface.svelte";
+  export let color: 'green'|'red' = 'green'
+  export let click: () => any
 </script>
 
-<Surface padding='loose' on:click={() => console.log("hello")} color="green">
+<style>
+  button {
+    padding: 15px 30px;
+    font-size: 1.4rem;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    box-shadow: var(--shadow);
+    cursor: pointer;
+  }
+</style>
+
+<button style="background-color: var(--{color})" on:click={click}>
   <slot></slot>
-</Surface>
+</button>
