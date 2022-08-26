@@ -7,7 +7,7 @@
   button {
     padding: 15px 30px;
     font-size: 1.4rem;
-    border-radius: var(--border-radius);
+    border-radius: 90;
     border: var(--border);
     box-shadow: var(--shadow);
     cursor: pointer;
