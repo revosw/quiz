@@ -1,7 +1,8 @@
 <script lang="ts">
+  import type { FlexDistribution } from "src/types/types";
   import Flex from "./Flex.svelte";
-  export let align: "start" | "center" | "end" | "stretch" = "stretch";
-  export let justify: "start" | "center" | "end" | "stretch" = "stretch";
+  export let align: FlexDistribution = "stretch";
+  export let justify: FlexDistribution = "stretch";
   export let gap: "loose" | "tight" = "tight";
 </script>
 

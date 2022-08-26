@@ -8,9 +8,9 @@
 
 <Surface padding="none" color="teal">
   {#if type === "single"}
-    <input {value} {placeholder} />
+    <input {value} {placeholder} {...$$restProps} />
   {:else}
-    <textarea {value} rows={parseInt(rows)} {placeholder} />
+    <textarea {value} {placeholder} rows={parseInt(rows)} {...$$restProps} />
   {/if}
 </Surface>
 

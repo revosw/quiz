@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { Icon } from "src/types/types";
 
-  export let color: 'cyan'|'teal'|'green'|'red' = 'cyan'
-  export let padding: 'tight'|'loose'|'none' = 'tight'
+  export let color: "cyan"|"teal"|"green"|"red" = "cyan"
+  export let padding: "tight"|"loose"|"none" = "tight"
 </script>
 
 <style>

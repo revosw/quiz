@@ -18,7 +18,7 @@
 
 <Column>
   <div />
-  <div style="visibility: {showPasswordBox ? 'visible' : 'hidden'}">
+  <div style="visibility: {showPasswordBox ? "visible" : "hidden"}">
     <Password {togglePasswordBox} />
   </div>
   <Row align="center">

@@ -6,12 +6,16 @@
   import Surface from "../surfaces/Surface.svelte";
 
   export let togglePasswordBox: () => any;
-
+  let password: string = "";
   function submitPassword() {}
+
+  $: {
+    console.log(password);
+  }
 </script>
 
 <div>
-  <Input placeholder="Password" />
+  <Input value={password} placeholder="Password" />
   <RoundButton click={submitPassword}>
     <Icon icon="check" />
   </RoundButton>
@@ -25,6 +29,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: var(--tight)
+    gap: var(--tight);
   }
 </style>

@@ -22,7 +22,7 @@
 <Surface>
   <Column>
     {#each people as person}
-      <Row align='center'>
+      <Row align="center">
         <span style="flex-grow: 1">
           {person.name}
         </span>

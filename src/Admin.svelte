@@ -69,7 +69,7 @@
           <div style="aspect-ratio: 1; height: 100%;">
             <Column>
               <Image src={question.img} />
-              <Input value={question.img} placeholder="Image URL" />
+              <Input value={question.img} placeholder="Image URL"  />
             </Column>
           </div>
           <!-- QUESTION + IMAGE URL -->

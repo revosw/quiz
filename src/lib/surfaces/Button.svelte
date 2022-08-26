@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let color: 'green'|'red' = 'green'
+  export let color: "green"|"red" = "green"
   export let click: () => any
 </script>
 
