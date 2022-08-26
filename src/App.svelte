@@ -5,7 +5,7 @@ import Row from "./lib/flex/Row.svelte";
   import Question from "./Question.svelte";
   import Results from "./Results.svelte";
 
-  let page = '/admin'
+  let page = '/'
 </script>
 
 <main>
