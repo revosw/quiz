@@ -6,7 +6,9 @@
     <g style="isolation:isolate">
 
             
-
+  <script>
+    console.log("hello")
+  </script>
         
 
     </g>
