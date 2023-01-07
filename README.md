@@ -2,3 +2,5 @@
 Challenge your buddies with a couple quizzes.
 
 Still WIP
+
+<img src="moon.svg" />
