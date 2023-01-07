@@ -107,9 +107,6 @@
         <!--The Boot Animation-->
         
         
-        <image href="https://raw.githubusercontent.com/Yuvi-raj-P/Yuvi-raj-P/main/moon-12.gif" alt="Loading Moon" width="150" height="150" x="320" y="120"/>
-        
-        
         <text x="390" y="290" stroke-width="0" text-anchor="middle" style="font-family:Abhaya Libre, sans-serif;font-weight:700;font-size:20px;font-style:normal;fill:#fff; opacity: 0.3; animation: Float 2s ease infinite">
 
             Loading A Moon For You 
